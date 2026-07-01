@@ -1,0 +1,194 @@
+<h1 class="page-title">
+
+  📋 Task Management
+
+</h1>
+
+<p class="subtitle">
+
+  Manage all employee tasks.
+
+</p>
+
+<div class="top-section">
+
+  <div class="total-card">
+
+    <h3>Total Tasks</h3>
+
+    <h1>{{tasks.length}}</h1>
+
+  </div>
+
+  <button class="add-btn"
+          routerLink="/add-task">
+
+    ➕ Add Task
+
+  </button>
+
+</div>
+
+<div class="table-card">
+
+  <table>
+
+    <thead>
+
+      <tr>
+
+        <th>ID</th>
+
+        <th>Task</th>
+
+        <th>Project</th>
+
+        <th>Employee</th>
+
+        <th>Start</th>
+
+        <th>Due</th>
+
+        <th>Priority</th>
+
+        <th>Status</th>
+
+        <th>Actions</th>
+
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr *ngFor="let task of tasks">
+
+        <td>{{task.taskItemId}}</td>
+
+        <td>
+
+          <b>{{task.taskName}}</b>
+
+        </td>
+
+        <td>
+
+          {{task.project?.projectName}}
+
+        </td>
+
+        <td>
+
+          <div class="employee">
+
+            <div class="avatar">
+
+              {{task.user?.fullName?.charAt(0)}}
+
+            </div>
+
+            <div>
+
+              <b>{{task.user?.fullName}}</b>
+
+            </div>
+
+          </div>
+
+        </td>
+
+        <td>
+
+          {{task.startDate | date:'dd MMM yyyy'}}
+
+        </td>
+
+        <td>
+
+          {{task.dueDate | date:'dd MMM yyyy'}}
+
+        </td>
+
+        <td>
+
+          <span class="priority high"
+                *ngIf="task.priority=='High'">
+
+            High
+
+          </span>
+
+          <span class="priority medium"
+                *ngIf="task.priority=='Medium'">
+
+            Medium
+
+          </span>
+
+          <span class="priority low"
+                *ngIf="task.priority=='Low'">
+
+            Low
+
+          </span>
+
+        </td>
+
+        <td>
+
+          <span class="status completed"
+                *ngIf="task.status=='Completed'">
+
+            Completed
+
+          </span>
+
+          <span class="status progress"
+                *ngIf="task.status=='In Progress'">
+
+            In Progress
+
+          </span>
+
+          <span class="status pending"
+                *ngIf="task.status=='Not Started'">
+
+            Not Started
+
+          </span>
+
+        </td>
+
+        <td class="action-cell">
+
+          <details class="action-menu">
+
+            <summary>⋮</summary>
+
+            <div class="menu">
+
+              <a [routerLink]="['/edit-task', task.taskItemId]">
+
+                ✏️ Edit
+
+              </a>
+
+              <button (click)="deleteTask(task.taskItemId)">
+
+                🗑 Delete
+
+              </button>
+
+            </div>
+
+          </details>
+
+        </td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>

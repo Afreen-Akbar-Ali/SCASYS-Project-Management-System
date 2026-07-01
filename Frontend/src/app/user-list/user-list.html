@@ -1,0 +1,154 @@
+<h1 class="page-title">
+
+  👥 Employee Management
+
+</h1>
+
+<p class="subtitle">
+
+  Manage all employees in the organization
+
+</p>
+
+<div class="top-section">
+
+  <div class="total-card">
+
+    <h3>Total Employees</h3>
+
+    <h1>{{users.length}}</h1>
+
+  </div>
+
+  <button class="add-btn" routerLink="/add-user">
+
+    ➕ Add Employee
+
+  </button>
+
+</div>
+
+<div class="table-card">
+
+  <table>
+
+    <thead>
+
+      <tr>
+
+        <th>ID</th>
+        <th>Employee</th>
+        <th>Email</th>
+        <th>Username</th>
+        <th>Role</th>
+        <th>Status</th>
+        <th>Actions</th>
+
+      </tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr *ngFor="let user of users">
+
+        <td>{{user.userId}}</td>
+
+        <td>
+
+          <div class="employee">
+
+            <div class="avatar">
+
+              {{user.fullName.charAt(0)}}
+
+            </div>
+
+            <div>
+
+              <b>{{user.fullName}}</b>
+
+            </div>
+
+          </div>
+
+        </td>
+
+        <td>{{user.email}}</td>
+
+        <td>{{user.username}}</td>
+
+        <td>
+
+          <span class="badge admin"
+                *ngIf="user.role=='Admin'">
+
+            👨‍💼 Admin
+
+          </span>
+
+          <span class="badge employee-badge"
+                *ngIf="user.role=='Employee'">
+
+            👷 Employee
+
+          </span>
+
+        </td>
+
+        <td>
+
+          <span class="status active"
+                *ngIf="user.isActive">
+
+            🟢 Active
+
+          </span>
+
+          <span class="status inactive"
+                *ngIf="!user.isActive">
+
+            🔴 Inactive
+
+          </span>
+
+        </td>
+
+        <td class="action-cell">
+
+          <details class="action-menu">
+
+            <summary title="Actions">
+
+              ⋮
+
+            </summary>
+
+            <div class="menu">
+
+              <a [routerLink]="['/edit-user', user.userId]">
+
+                ✏️ Edit
+
+              </a>
+
+              <button type="button"
+                      (click)="deleteUser(user.userId)">
+
+                🗑 Delete
+
+              </button>
+
+            </div>
+
+          </details>
+
+        </td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>

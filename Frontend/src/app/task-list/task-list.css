@@ -1,0 +1,177 @@
+.page-title {
+  font-size: 34px;
+  color: #1565C0;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.total-card {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+  .total-card h1 {
+    font-size: 40px;
+    color: #1565C0;
+  }
+
+.add-btn {
+  background: #1565C0;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: .3s;
+}
+
+  .add-btn:hover {
+    background: #0D47A1;
+    transform: translateY(-3px);
+  }
+
+.table-card {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #1565C0;
+  color: white;
+  padding: 15px;
+}
+
+td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+  background: #eef5ff;
+}
+
+.employee {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: #1565C0;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.priority {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.high {
+  background: #ffe5e5;
+  color: #d32f2f;
+}
+
+.medium {
+  background: #fff3cd;
+  color: #ff9800;
+}
+
+.low {
+  background: #d4edda;
+  color: #28a745;
+}
+
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.completed {
+  background: #d4edda;
+  color: #28a745;
+}
+
+.progress {
+  background: #fff3cd;
+  color: #ff9800;
+}
+
+.pending {
+  background: #ececec;
+  color: #666;
+}
+
+.action-cell {
+  text-align: center;
+  position: relative;
+}
+
+.action-menu {
+  display: inline-block;
+  position: relative;
+}
+
+  .action-menu summary {
+    list-style: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1565C0;
+  }
+
+    .action-menu summary::-webkit-details-marker {
+      display: none;
+    }
+
+.menu {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  width: 150px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.18);
+  overflow: hidden;
+  z-index: 999;
+}
+
+  .menu a,
+  .menu button {
+    display: block;
+    width: 100%;
+    padding: 12px 15px;
+    text-align: left;
+    background: white;
+    border

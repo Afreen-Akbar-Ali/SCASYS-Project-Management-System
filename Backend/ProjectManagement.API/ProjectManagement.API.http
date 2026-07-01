@@ -1,0 +1,11 @@
+@ProjectManagement.API_HostAddress = http://localhost:5190
+
+GET {{ProjectManagement.API_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ProjectManagement.API_HostAddress}}/todos/1
+Accept: application/json
+
+###

@@ -1,0 +1,185 @@
+<div class="container">
+
+  <app-sidebar></app-sidebar>
+
+  <div class="content">
+
+    <header class="topbar">
+
+      <div class="brand">
+
+        <h2>SCASYS</h2>
+
+        <span>Project Management System</span>
+
+      </div>
+
+      <div class="actions">
+
+        <!-- SEARCH -->
+
+        <div class="notification">
+
+          <div class="icon"
+               (click)="toggleSearch()">
+
+            🔍
+
+          </div>
+
+          <div class="dropdown search-dropdown"
+               *ngIf="showSearch">
+
+            <h4>Global Search</h4>
+
+            <hr>
+
+            <input type="text"
+                   placeholder="Search Users, Projects, Tasks..."
+                   [(ngModel)]="searchText"
+                   (keyup)="search()">
+
+            <br>
+
+            <h5>Employees</h5>
+
+            <div class="result"
+                 *ngFor="let user of filteredUsers"
+                 (click)="openUsers()">
+
+              👤 {{user.fullName}}
+
+              <br>
+
+              <small>{{user.email}}</small>
+
+            </div>
+
+            <hr>
+
+            <h5>Projects</h5>
+
+            <div class="result"
+                 *ngFor="let project of filteredProjects"
+                 (click)="openProjects()">
+
+              📁 {{project.projectName}}
+
+            </div>
+
+            <hr>
+
+            <h5>Tasks</h5>
+
+            <div class="result"
+                 *ngFor="let task of filteredTasks"
+                 (click)="openTasks()">
+
+              📝 {{task.taskName}}
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- NOTIFICATION -->
+
+        <div class="notification">
+
+          <div class="icon"
+               (click)="toggleNotification()">
+
+            🔔
+
+            <span class="badge">3</span>
+
+          </div>
+
+          <div class="dropdown"
+               *ngIf="showNotification">
+
+            <h4>Notifications</h4>
+
+            <hr>
+
+            <p>📝 New Task Assigned</p>
+
+            <p>📁 Project Updated</p>
+
+            <p>👤 Employee Added</p>
+
+          </div>
+
+        </div>
+
+        <!-- SETTINGS -->
+
+        <div class="notification">
+
+          <div class="icon"
+               (click)="toggleSettings()">
+
+            ⚙️
+
+          </div>
+
+          <div class="dropdown"
+               *ngIf="showSettings">
+
+            <h4>Administrator</h4>
+
+            <hr>
+
+            <p>👤 {{name}}</p>
+
+            <p>💼 {{role}}</p>
+
+            <p>📧 {{email}}</p>
+
+            <hr>
+
+            <button class="logout-btn"
+                    (click)="logout()">
+
+              Logout
+
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- PROFILE -->
+
+        <div class="profile">
+
+          <div class="avatar">
+
+            {{name.charAt(0)}}
+
+          </div>
+
+          <div class="details">
+
+            <b>{{name}}</b>
+
+            <small>{{role}}</small>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </header>
+
+    <main class="page">
+
+      <router-outlet></router-outlet>
+
+    </main>
+
+  </div>
+
+</div>

@@ -1,0 +1,365 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\controller\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\controller\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\controller\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\controller\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\controller\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\controller\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\controller\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\controller\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\projectmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\projectmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260629150806_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectManagement.API\\Migrations\\20260629150806_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260629145850_AddTaskManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectManagement.API\\Migrations\\20260629145850_AddTaskManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260629140759_AddProjectDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectManagement.API\\Migrations\\20260629140759_AddProjectDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260627165702_AddRoleAndIsActive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectManagement.API\\Migrations\\20260627165702_AddRoleAndIsActive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\projectmanagement.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\projectmanagement.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|c:\\users\\afreeen\\source\\repos\\projectmanagement.api\\projectmanagement.api\\migrations\\20260629151750_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{896FE961-C010-4E93-8CC6-6167371BEEA1}|ProjectManagement.API\\ProjectManagement.API.csproj|solutionrelative:projectmanagement.api\\migrations\\20260629151750_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Controller\\DashboardController.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Controller\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Controller\\DashboardController.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Controller\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T07:57:26.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Controller\\UsersController.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Controller\\UsersController.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Controller\\UsersController.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Controller\\UsersController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T06:22:02.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Models\\Project.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T05:50:05.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Models\\TaskItem.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T05:48:51.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Program.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Program.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwDMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T05:53:45.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Data\\ProjectDbContext.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Data\\ProjectDbContext.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Data\\ProjectDbContext.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Data\\ProjectDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T05:51:32.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ProjectManagement.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwBQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-24T06:46:54.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaskItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Controller\\TaskItemsController.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Controller\\TaskItemsController.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Controller\\TaskItemsController.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Controller\\TaskItemsController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwGIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T06:23:07.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Models\\User.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T05:40:57.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Controller\\AuthController.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Controller\\AuthController.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Controller\\AuthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T16:12:21.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\appsettings.json",
+              "RelativeToolTip": "ProjectManagement.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-24T05:53:17.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Controller\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Controller\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Controller\\ProjectsController.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Controller\\ProjectsController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T06:22:40.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20260629151750_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260629151750_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Migrations\\20260629151750_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260629151750_InitialCreate.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Migrations\\20260629151750_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T15:17:50.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProjectManagement.API.csproj",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\ProjectManagement.API.csproj",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\ProjectManagement.API.csproj",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\ProjectManagement.API.csproj",
+              "RelativeToolTip": "ProjectManagement.API\\ProjectManagement.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-24T06:00:03.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20260629150806_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260629150806_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Migrations\\20260629150806_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260629150806_InitialCreate.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Migrations\\20260629150806_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T15:08:06.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260629145850_AddTaskManagement.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260629145850_AddTaskManagement.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Migrations\\20260629145850_AddTaskManagement.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260629145850_AddTaskManagement.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Migrations\\20260629145850_AddTaskManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T14:58:51.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260629140759_AddProjectDetails.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260629140759_AddProjectDetails.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Migrations\\20260629140759_AddProjectDetails.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260629140759_AddProjectDetails.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Migrations\\20260629140759_AddProjectDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T14:07:59.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T16:18:07.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20260627165702_AddRoleAndIsActive.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260627165702_AddRoleAndIsActive.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Migrations\\20260627165702_AddRoleAndIsActive.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Migrations\\20260627165702_AddRoleAndIsActive.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Migrations\\20260627165702_AddRoleAndIsActive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T16:57:02.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProjectManagement.API.http",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\ProjectManagement.API.http",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\ProjectManagement.API.http",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\ProjectManagement.API.http",
+              "RelativeToolTip": "ProjectManagement.API\\ProjectManagement.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-06-27T16:29:51.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "ProjectManagement.API\\Models\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\AFREEEN\\source\\repos\\ProjectManagement.API\\ProjectManagement.API\\Models\\LoginResponse.cs",
+              "RelativeToolTip": "ProjectManagement.API\\Models\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T16:47:26.376Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

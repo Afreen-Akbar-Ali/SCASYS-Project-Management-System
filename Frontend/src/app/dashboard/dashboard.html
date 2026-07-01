@@ -1,0 +1,187 @@
+<h1 class="welcome">
+
+  Welcome Back,
+  <span>HR Admin 👋</span>
+
+</h1>
+
+<p class="subtitle">
+
+  Here's what's happening in your organization today.
+
+</p>
+
+<!-- Statistics -->
+
+<div class="cards">
+
+  <div class="card users">
+
+    <div class="icon">👥</div>
+
+    <h3>Total Employees</h3>
+
+    <h1>{{totalUsers}}</h1>
+
+  </div>
+
+  <div class="card projects">
+
+    <div class="icon">📁</div>
+
+    <h3>Total Projects</h3>
+
+    <h1>{{totalProjects}}</h1>
+
+  </div>
+
+  <div class="card tasks">
+
+    <div class="icon">📝</div>
+
+    <h3>Total Tasks</h3>
+
+    <h1>{{totalTasks}}</h1>
+
+  </div>
+
+  <div class="card completed">
+
+    <div class="icon">✅</div>
+
+    <h3>Completed</h3>
+
+    <h1>{{completedTasks}}</h1>
+
+  </div>
+
+  <div class="card progress">
+
+    <div class="icon">🚀</div>
+
+    <h3>In Progress</h3>
+
+    <h1>{{inProgressTasks}}</h1>
+
+  </div>
+
+  <div class="card pending">
+
+    <div class="icon">⏳</div>
+
+    <h3>Pending</h3>
+
+    <h1>{{notStartedTasks}}</h1>
+
+  </div>
+
+</div>
+
+<br>
+
+<div class="dashboard-grid">
+
+  <!-- Chart -->
+
+  <div class="panel">
+
+    <h2>📊 Task Status Overview</h2>
+
+    <canvas id="taskChart"></canvas>
+
+  </div>
+
+  <!-- Recent Activities -->
+
+  <div class="panel">
+
+    <h2>📢 Recent Activities</h2>
+
+    <ul class="activity">
+
+      <li>✅ New employee registered</li>
+
+      <li>📁 Project added successfully</li>
+
+      <li>📝 Task assigned to employee</li>
+
+      <li>🚀 Project moved to In Progress</li>
+
+      <li>✔ Task marked as Completed</li>
+
+    </ul>
+
+  </div>
+
+</div>
+
+<br>
+
+<div class="dashboard-grid">
+
+  <!-- Upcoming -->
+
+  <div class="panel">
+
+    <h2>📅 Upcoming Deadlines</h2>
+
+    <table>
+
+      <tr>
+
+        <th>Project</th>
+
+        <th>Status</th>
+
+      </tr>
+
+      <tr>
+
+        <td>Employee Portal</td>
+
+        <td>In Progress</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Finance Dashboard</td>
+
+        <td>Pending</td>
+
+      </tr>
+
+      <tr>
+
+        <td>HR Management</td>
+
+        <td>Completed</td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+  <div class="summary-card">
+
+    <h2>👥 Employee Workload</h2>
+
+    <div class="work"
+         *ngFor="let w of workloads">
+
+      <div class="work-header">
+
+        <span>{{w.employeeName}}</span>
+
+        <span>{{w.taskCount}} Task(s)</span>
+
+      </div>
+
+      <progress [value]="w.taskCount"
+                [max]="totalTasks">
+      </progress>
+
+    </div>
+
+  </div>

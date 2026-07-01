@@ -1,0 +1,84 @@
+<div class="login-page">
+
+  <!-- Left Panel -->
+
+  <div class="left-panel">
+
+    <img src="sca.jpg" class="company-logo">
+
+    <h1>SCASYS</h1>
+
+    <h3>Project Management System</h3>
+
+    <p>
+      Welcome to the HR Management Portal.
+      Manage Employees, Projects and Tasks efficiently with SCASYS.
+    </p>
+
+  </div>
+
+  <!-- Right Panel -->
+
+  <div class="right-panel">
+
+    <div class="login-card">
+
+      <h2>Welcome Back 👋</h2>
+
+      <p class="subtitle">
+        Sign in to continue
+      </p>
+
+      <mat-form-field appearance="outline" class="full-width">
+
+        <mat-label>Email</mat-label>
+
+        <input matInput
+               type="email"
+               [(ngModel)]="email">
+
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="full-width">
+
+        <mat-label>Password</mat-label>
+
+        <input matInput
+               type="password"
+               [(ngModel)]="password">
+
+      </mat-form-field>
+
+      <div class="options">
+
+        <mat-checkbox color="primary">
+          Remember Me
+        </mat-checkbox>
+
+        <a routerLink="/forgot-password" class="forgot-link">
+          Forgot Password?
+        </a>
+
+      </div>
+
+      <button mat-raised-button
+              color="primary"
+              class="login-btn"
+              (click)="login()"
+              [disabled]="loading">
+
+        {{loading ? 'Signing In...' : 'Login'}}
+
+      </button>
+
+      <div class="footer">
+
+        © 2026 SCASYS | Idea Meets Technology
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

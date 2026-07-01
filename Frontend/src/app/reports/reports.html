@@ -1,0 +1,161 @@
+<h1 class="page-title">
+
+  📊 Reports & Analytics
+
+</h1>
+
+<p class="subtitle">
+
+  SCASYS Project Management Analytics Dashboard
+
+</p>
+
+<div class="cards">
+
+  <div class="card blue">
+    <h4>Total Employees</h4>
+    <h1>{{totalUsers}}</h1>
+  </div>
+
+  <div class="card green">
+    <h4>Total Projects</h4>
+    <h1>{{totalProjects}}</h1>
+  </div>
+
+  <div class="card orange">
+    <h4>Total Tasks</h4>
+    <h1>{{totalTasks}}</h1>
+  </div>
+
+  <div class="card success">
+    <h4>Completed</h4>
+    <h1>{{completed}}</h1>
+  </div>
+
+  <div class="card purple">
+    <h4>In Progress</h4>
+    <h1>{{progress}}</h1>
+  </div>
+
+  <div class="card red">
+    <h4>Pending</h4>
+    <h1>{{pending}}</h1>
+  </div>
+
+</div>
+
+<div class="report-grid">
+
+  <div class="report-card">
+
+    <h2>📈 Project Performance</h2>
+
+    <div class="progress-item">
+
+      <label>Completed Tasks</label>
+
+      <progress [value]="completed"
+                [max]="totalTasks">
+      </progress>
+
+      <span>{{completed}} / {{totalTasks}}</span>
+
+    </div>
+
+    <div class="progress-item">
+
+      <label>In Progress</label>
+
+      <progress [value]="progress"
+                [max]="totalTasks">
+      </progress>
+
+      <span>{{progress}} / {{totalTasks}}</span>
+
+    </div>
+
+    <div class="progress-item">
+
+      <label>Pending</label>
+
+      <progress [value]="pending"
+                [max]="totalTasks">
+      </progress>
+
+      <span>{{pending}} / {{totalTasks}}</span>
+
+    </div>
+
+  </div>
+
+  <div class="report-card">
+
+    <h2>📋 System Summary</h2>
+
+    <table>
+
+      <tr>
+
+        <td>Total Employees</td>
+
+        <td>{{totalUsers}}</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Total Projects</td>
+
+        <td>{{totalProjects}}</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Total Tasks</td>
+
+        <td>{{totalTasks}}</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Completed Tasks</td>
+
+        <td>{{completed}}</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Tasks In Progress</td>
+
+        <td>{{progress}}</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Pending Tasks</td>
+
+        <td>{{pending}}</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Completion Rate</td>
+
+        <td>
+
+          {{ totalTasks==0 ? 0 : ((completed/totalTasks)*100).toFixed(0) }}%
+
+        </td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+</div>
