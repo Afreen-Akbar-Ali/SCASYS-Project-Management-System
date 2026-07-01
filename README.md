@@ -1,69 +1,196 @@
 # SCASYS Project Management System
 
-## Project Overview
+A web-based **HR Project Management System** developed using **Angular**, **ASP.NET Core Web API**, and **SQL Server**. The system helps organizations efficiently manage projects, tasks, employees, and project progress through a user-friendly interface.
 
-SCASYS Project Management System is a web-based project management application developed using Angular, ASP.NET Core Web API, and SQL Server. It enables administrators to manage employees, projects, tasks, and reports through a modern dashboard.
+---
 
-## Technologies Used
+## 📌 Project Overview
+
+The SCASYS Project Management System is designed to simplify project management activities within an organization. It allows administrators and employees to manage projects, assign tasks, monitor progress, and generate reports.
+
+---
+
+## ✨ Features
+
+- User Authentication (Login)
+- Dashboard with project statistics
+- Add, Edit and Delete Projects
+- Add, Edit and Delete Tasks
+- Add, Edit and Delete Users
+- Task Assignment
+- Project Progress Tracking
+- Reports Dashboard
+- Forgot Password Module
+- Responsive User Interface
+
+---
+
+## 🛠 Technologies Used
 
 ### Frontend
 - Angular
 - TypeScript
 - HTML
-- CSS
+- CSS / SCSS
 - Angular Material
 
 ### Backend
-- ASP.NET Core Web API
-- Entity Framework Core
+- ASP.NET Core 8 Web API
 - C#
+- Entity Framework Core
 
 ### Database
 - Microsoft SQL Server
 
-## Features
+### Development Tools
+- Visual Studio 2022
+- Visual Studio Code
+- SQL Server Management Studio (SSMS)
+- Git & GitHub
 
-- User Login
-- Dashboard
-- Employee Management (CRUD)
-- Project Management (CRUD)
-- Task Management (CRUD)
-- Reports & Analytics
-- Employee Workload
-- Responsive UI
+---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 SCASYS-Project-Management-System
 │
 ├── Frontend
+│   ├── src
+│   ├── public
+│   ├── package.json
+│   └── angular.json
+│
 ├── Backend
-└── Database
+│   └── ProjectManagement.API
+│       ├── Controllers
+│       ├── Models
+│       ├── Services
+│       ├── Program.cs
+│       └── appsettings.json
+│
+├── Database
+│   └── ProjectManagementDB.sql
+│
+└── README.md
 ```
 
-## How to Run
+---
 
-### Backend
+# ⚙ Installation
 
-1. Open the Backend solution in Visual Studio.
-2. Restore NuGet packages.
-3. Update the connection string if required.
-4. Run the API.
+## 1. Clone Repository
 
-### Frontend
+```bash
+git clone https://github.com/Afreen-Akbar-Ali/SCASYS-Project-Management-System.git
+```
+
+---
+
+## 2. Backend Setup
+
+Open the backend project using Visual Studio.
+
+Navigate to
+
+```
+Backend/ProjectManagement.API
+```
+
+Restore packages.
+
+Update the SQL Server connection string inside
+
+```
+appsettings.json
+```
+
+Run the project.
+
+The API will start at
+
+```
+https://localhost:xxxx
+```
+
+---
+
+## 3. Frontend Setup
+
+Navigate to
+
+```
+Frontend
+```
+
+Install dependencies
 
 ```bash
 npm install
+```
+
+Run Angular
+
+```bash
 ng serve
 ```
 
-Open:
+Application runs at
 
 ```
 http://localhost:4200
 ```
 
-## Author
+---
 
-Afreen Akbar Ali
+## 4. Database Setup
+
+Open SQL Server Management Studio.
+
+Create a new database named
+
+```
+ProjectManagement
+```
+
+Execute the SQL script located in
+
+```
+Database/ProjectManagementDB.sql
+```
+
+---
+
+## 📊 Modules
+
+- Authentication
+- Dashboard
+- Project Management
+- Task Management
+- User Management
+- Reports
+
+---
+
+## 🚀 Future Enhancements
+
+- Email Notifications
+- Role Based Access Control
+- File Upload Support
+- Project Calendar
+- Real-Time Notifications
+- Mobile Application
+
+---
+
+## 👨‍💻 Developed By
+
+**Afreen Akbar Ali**
+
+Bachelor of Technology (Computer Science and Engineering)
+
+---
+
+## 📄 License
+
+This project is developed for academic and educational purposes.
